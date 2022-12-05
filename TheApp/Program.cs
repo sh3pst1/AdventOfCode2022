@@ -15,6 +15,8 @@ namespace TheApp
             Day03.Part2(File.ReadAllLines(@$"{BasePath}{nameof(Day03)}\input.txt"));
             Day04.Part1(File.ReadAllLines(@$"{BasePath}{nameof(Day04)}\input.txt"));
             Day04.Part2(File.ReadAllLines(@$"{BasePath}{nameof(Day04)}\input.txt"));
+            Day05.Part1(File.ReadAllLines(@$"{BasePath}{nameof(Day05)}\input.txt"));
+            Day05.Part2(File.ReadAllLines(@$"{BasePath}{nameof(Day05)}\input.txt"));
             Console.ReadKey();
         }
     }
